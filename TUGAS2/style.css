@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+background-image: url(doodle.jpg);
+}
+
+#atas {
+    font-size: x-large;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 35px 35px 0px 0px;
+    background-color: palevioletred;
+    width: 100%;
+    height: 150px;
+    border: solid;
+}
+
+#body-tengah {
+    display: flex;
+    border: solid;
+    width: 100%;
+    text-align: center;
+    background-color: palevioletred;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.bawah {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 0px 0px 35px 35px;
+    background-color: palevioletred;
+    width: 100%;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    border: solid;
+}
+
+#kiri{
+    width: 33%;
+    height: 125px;
+    background-color: pink;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-style: dashed;
+    border-bottom-color: red ;
+    border-top-color: blue ;
+    border-left-color: yellow ;
+    border-right-color: green ;
+}
+#tengah{
+    width: 33%;
+    height: 125px;
+    background-color: pink;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-style: dotted;
+    border-bottom-color: red ;
+    border-top-color: blue ;
+    border-left-color: yellow ;
+    border-right-color: green ;
+}
+#kanan{
+    width: 33%;
+    height: 125px;
+    background-color: pink;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: dashed;
+    border-bottom-color: red ;
+    border-top-color: blue ;
+    border-left-color: yellow ;
+    border-right-color: green ;
+}
